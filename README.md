@@ -72,7 +72,7 @@ robot-research-platform/
 
 ## 架构图
 
-![系统架构图](./docs/architecture.svg)
+![系统架构图](./architecture.svg)
 
 > 架构说明：前端通过 Supabase Edge Functions 统一调用后端能力；行情类接口直连实时数据源；AI 分析类接口经 Supabase Function 调用 MiniMax 大模型生成结构化结论。
 
